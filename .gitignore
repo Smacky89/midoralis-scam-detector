@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# bot data (lives next to BLOCKLIST_PATH, not in git)
+scam-hashes.json
+scam-domains.json
+audit-log.json
+guilds.json
+cases.json
+phishing-feed-cache.json
+log-images/
+hash-images/
+tessdata/
+*.traineddata
+*.tmp
+
+# local environment / secrets, never commit your token
+.env
+.env.*
+!.env.example
+
+# local editor / tooling files
+.vscode/
+.idea/
+
+# logs and OS junk
+*.log
+.DS_Store
+
+# internal working docs
+docs/*_ROADMAP.md

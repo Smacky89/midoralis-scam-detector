@@ -1,0 +1,38 @@
+{
+  "name": "midoralis-scam-detector",
+  "private": true,
+  "license": "MIT",
+  "author": "Midoralis Game Studio (https://midoralis.com/)",
+  "homepage": "https://github.com/Smacky89/midoralis-scam-detector#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smacky89/midoralis-scam-detector.git"
+  },
+  "funding": "https://buymeacoffee.com/midoralis",
+  "bugs": {
+    "url": "https://github.com/Smacky89/midoralis-scam-detector/issues"
+  },
+  "version": "2.0.0",
+  "description": "Discord scam detection + moderation bot: scam images (pHash + OCR), phishing links, automod, warnings, anti-raid",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.6.1",
+    "sharp": "^0.35.5",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.14.0"
+  }
+}
